@@ -1,0 +1,1 @@
+// Barre de navigation vers INSCRIPTION, CONNECTION et BLOG
