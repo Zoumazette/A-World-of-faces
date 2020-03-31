@@ -1,9 +1,8 @@
 // Barre de navigation vers INSCRIPTION, CONNECTION et BLOG
 <?php
 //var_dump(_POST);
-$username =  $_POST['username'];
-$email = $_POST['email'];
-$keypass = $_POST['keypass'];
+$name =  $_POST['username'];
+$keypass = $_POST['password'];
 
 //Se connecter à la base de données
 try {
@@ -13,9 +12,8 @@ try {
 }
 
 //Insérer la ligne utilisateur en bdd
-$sql = "INSERT INTO user (user_name, user_email, user_keypass) VALUES (?,?,?)";
+$sql = "INSERT INTO user (name_user, password_user) VALUES (?,?)";
 $preparation = $pdo->prepare($sql);
-$preparation->bindParam(1,$username);
-$preparation->bindParam(2,$email);
-$preparation->bindParam(3,$keypass);
+$preparation->bindParam(1,$name);
+$preparation->bindParam(2,$keypass);
 $preparation->execute();
