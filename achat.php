@@ -1,1 +1,1 @@
-// accessible uniquement aux loggés (vérification  pseudo/mot de passe)
+<!--accessible uniquement aux loggés (vérification  pseudo/mot de passe-->
