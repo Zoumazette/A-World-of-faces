@@ -1,4 +1,3 @@
-// Barre de navigation vers INSCRIPTION, CONNECTION et BLOG
 <?php
 //var_dump(_POST);
 $name =  $_POST['username'];
