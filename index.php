@@ -26,7 +26,8 @@
             <a class="nav-link" href="achat.php">Achats / Shopping</a>
             </li>
             <li class="nav-item">
-            <a class="nav-link" href="book.php">Mon parcours / My journey</a>
+            <a class="nav-link" href="https://arnaudbeinat.wordpress.com/presentation-darnaud-beinat/">Mon parcours / My journey</a>
+
             </li>
         </ul>
     </nav
