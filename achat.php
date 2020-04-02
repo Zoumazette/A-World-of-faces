@@ -11,7 +11,7 @@
 
 */
 
-// CONNEXTION A LA BDD
+// CONNEXION A LA BDD
 
 $dsn = 'mysql:host=localhost;dbname=verif_transaction;charset=utf8'; //entrer votre config BDD
 $user = 'alaji';    //entrer votre nom d'utilisateur
