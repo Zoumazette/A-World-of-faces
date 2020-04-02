@@ -34,7 +34,7 @@
 
 <!-- Le container texte et carousel-->
     <h1 class="display-3">Hello, world!</h1>
-    <p class="lead">L'aventure c'est le trésor que l'on découvre chaque matin / Adventure is the treasure that we discover every morning - "Jacques Brel" -</p>
+    <p class="lead">L'aventure c'est le trésor que l'on découvre chaque matin / Adventure is the treasure that we discover every morning<cite>- "Jacques Brel" -</cite></p>
     <hr class="my-4">
         <div class="carousel">
         <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
