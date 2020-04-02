@@ -43,7 +43,7 @@ $Val_key ='validation_key';
 $rs_select = $bdd->prepare("SELECT * FROM user WHERE name=?");  // selection avec comme conditions le nom
 $rs_select-> execute (array($ReqName));                         //Recuperation Grace au nom
 
- 
+
         $d = $rs_select->fetch(PDO::FETCH_OBJ);
         
                 if($ReqName == $d->name) //Verification si le nom existe
