@@ -30,7 +30,7 @@
 
             </li>
         </ul>
-    </nav
+    </nav>
 
 
 <!-- carousel de photographies -->
