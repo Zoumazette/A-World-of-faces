@@ -10,69 +10,58 @@
 </head>
 
 <body>
-<!-- barre de navigation vers ACCUEIL, ACHAT et BLOG -->
-<div class="bs-component">
+<!-- La barre de navigation -->
+<div class="jumbotron">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#"></a>
-        <span class="navbar-toggler-icon"></span>
+        <a class="navbar-brand" href="#">Navigation</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
         </button>
 
         <div class="collapse navbar-collapse" id="navbarColor02">
-        <ul class="navbar-nav mr-auto">
+            <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-            <a class="nav-link" href="accueil.php">Inscription / Entry<span class="sr-only"></span></a>
+                <a class="nav-link" href="index.php">Accueil/Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-            <a class="nav-link" href="achat.php">Achats / Shopping</a>
+                <a class="nav-link" href="achat.php">Achat/Store</a>
             </li>
             <li class="nav-item">
-            <a class="nav-link" href="https://arnaudbeinat.wordpress.com/presentation-darnaud-beinat/">Mon parcours / My journey</a>
-
+                <a class="nav-link" href="https://arnaudbeinat.wordpress.com/presentation-darnaud-beinat/">Book/About</a>
             </li>
-        </ul>
-    </nav
+            </ul>
+        </div>
+    </nav>
 
-
-<!-- carousel de photographies -->
-<div class="carousel">
-    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-    <div class="carousel-inner">
-        <div class="carousel-item active">
-            <img src="enfantsteepe.jpg" class="d-block mx-auto" alt="L'enfant des steppes">
+<!-- Le container texte et carousel-->
+    <h1 class="display-3">Hello, world!</h1>
+    <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+    <hr class="my-4">
+        <div class="carousel">
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="enfantsteepe.jpg" class="d-block mx-auto" alt="L'enfant des steppes">
+            </div>
+            <div class="carousel-item">
+            <img src="epicier.jpg" class="d-block mx-auto" alt="L'épicier">
+            </div>
+            <div class="carousel-item">
+            <img src="femmessurle peron.jpg" class="d-block mx-auto" alt="La femme sur le péron">
+            </div>
+            <div class="carousel-item">
+            <img src="femmevoilee.jpg" class="d-block mx-auto" alt="La visiteuse">
+            </div>
+            <div class="carousel-item">
+            <img src="girls.jpg" class="d-block mx-auto" alt="Les jeunes filles">
+            </div>
+            <div class="carousel-item">
+            <img src="pecheur.jpg" class="d-block mx-auto" alt="Le pécheur">
+            </div>
         </div>
-        <div class="carousel-item">
-        <img src="epicier.jpg" class="d-block mx-auto" alt="L'épicier">
         </div>
-        <div class="carousel-item">
-        <img src="femmessurle peron.jpg" class="d-block mx-auto" alt="La femme sur le péron">
-        </div>
-        <div class="carousel-item">
-        <img src="femmevoilee.jpg" class="d-block mx-auto" alt="La visiteuse">
-        </div>
-        <div class="carousel-item">
-        <img src="girls.jpg" class="d-block mx-auto" alt="Les jeunes filles">
-        </div>
-        <div class="carousel-item">
-        <img src="pecheur.jpg" class="d-block mx-auto" alt="Le pécheur">
-        </div>
-    </div>
     </div>
 </div>
-
-<!-- Ici je code un formulaire-->
-<!-- <form>
-<div class="form-row">
-    <div class="form-group col-md-6">
-    <label for="user_name">Identifiant</label>
-    <input type="text" class="form-control" id="username">
-    </div>
-    <div class="form-group col-md-6">
-    <label for="inputPassword4">Mot de passe</label>
-    <input type="password" class="form-control" id="password">
-    </div>
-</div>
-    <button type="submit" class="btn btn-primary">Envoyer</button>
-</form> -->
 
 </body>
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
