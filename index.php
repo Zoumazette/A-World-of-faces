@@ -29,35 +29,12 @@
             <li class="nav-item">
                 <a class="nav-link" href="https://arnaudbeinat.wordpress.com/presentation-darnaud-beinat/">Book/About</a>
             </li>
-<<<<<<< HEAD
-            </ul>
-=======
         </ul>
-    </nav>
-
-
-<!-- carousel de photographies -->
-<div class="carousel">
-    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-    <div class="carousel-inner">
-        <div class="carousel-item active">
-            <img src="enfantsteepe.jpg" class="d-block mx-auto" alt="L'enfant des steppes">
-        </div>
-        <div class="carousel-item">
-        <img src="epicier.jpg" class="d-block mx-auto" alt="L'épicier">
-        </div>
-        <div class="carousel-item">
-        <img src="femmessurle peron.jpg" class="d-block mx-auto" alt="La femme sur le péron">
-        </div>
-        <div class="carousel-item">
-        <img src="femmevoilee.jpg" class="d-block mx-auto" alt="La visiteuse">
->>>>>>> 032f3e38b390e81bc42bbd0a2dde1701e93e202f
-        </div>
     </nav>
 
 <!-- Le container texte et carousel-->
     <h1 class="display-3">Hello, world!</h1>
-    <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+    <p class="lead">L'aventure c'est le trésor que l'on découvre chaque matin / Adventure is the treasure that we discover every morning - "Jacques Brel" -</p>
     <hr class="my-4">
         <div class="carousel">
         <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
