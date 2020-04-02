@@ -60,7 +60,6 @@
 </div>
 
 <!-- Ici je code un formulaire-->
-<!-- 
 <form>
 <div class="form-row">
     <div class="form-group col-md-6">
