@@ -11,7 +11,6 @@
 
 <body>
 <!-- La barre de navigation -->
-<div class="jumbotron">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand" href="index.php">Navigation</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
@@ -33,9 +32,12 @@
     </nav>
 
 <!-- Le container texte et carousel-->
+<section class="row animated fadeInLeft" id="corps">
+    <div class="jumbotron">
     <h1 class="display-3">Hello, world!</h1>
     <p class="lead">L'aventure c'est le trésor que l'on découvre chaque matin / Adventure is the treasure that we discover every morning<cite>- "Jacques Brel" -</cite></p>
     <hr class="my-4">
+
         <div class="carousel">
         <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
@@ -59,8 +61,9 @@
             </div>
         </div>
         </div>
+        </div>
     </div>
-</div>
+</section>
 
 </body>
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
