@@ -33,7 +33,7 @@
 
 <!-- Le container texte et carousel-->
 <section class="row animated fadeInLeft" id="corps">
-    <div class="jumbotron">
+    <div class="container jumbotron">
     <h1 class="display-3">Hello, world!</h1>
     <p class="lead">L'aventure c'est le trésor que l'on découvre chaque matin / Adventure is the treasure that we discover every morning<cite>- "Jacques Brel" -</cite></p>
     <hr class="my-4">
